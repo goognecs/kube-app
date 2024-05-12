@@ -5,8 +5,8 @@ metadata:
 spec:
   selector:
     app: vproapp
-  type: ClusterIP
+  type: LoadBalancer
   ports:
   - protocol: TCP
-    port: 15672
+    port: 80
     targetPort: vproapp-port
