@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: vpromq01-config
+data:
+  username: guest
+immutable: true
