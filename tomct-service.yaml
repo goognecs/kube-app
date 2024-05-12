@@ -10,4 +10,3 @@ spec:
   - protocol: TCP
     port: 15672
     targetPort: vproapp-port
-#service
