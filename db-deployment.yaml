@@ -38,9 +38,8 @@ spec:
         - name: vprodb-data
           # This AWS EBS volume must already exist.
           awsElasticBlockStore:
-             volumeID: vol-09fbca38ca36384ec
+             volumeID: vol-07841c564656ed70a
              fsType: ext4
-
       initContainers:
         - name: busybox
           image: busybox:latest

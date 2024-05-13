@@ -31,4 +31,4 @@ spec:
           valueFrom:
             secretKeyRef:
               name: appsecret
-              key: rmq_pass
+              key: rmq-pass
