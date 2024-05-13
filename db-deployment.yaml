@@ -32,6 +32,11 @@ spec:
              secretKeyRef:
                name: appsecret
                key: db_pass
+        livenessProbe:
+          tcpSocket:
+            port: 3306
+          initialDelaySeconds: 15
+          periodSeconds: 10
       nodeSelector:
         zone: us-east-1a
       volumes:
